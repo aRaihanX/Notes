@@ -1,0 +1,2 @@
+dir(list) #Prints all the options for list
+type(x) #Prints data type of x
