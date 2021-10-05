@@ -4,3 +4,5 @@ help(str.upper) #Prints information about what str.upper option does.
 "Hello".upper() #HELLO
 type(x) #Prints data type of x
 print(__builtins__) #Prints all the functions of python
+
+dictionary = {"key": value}
