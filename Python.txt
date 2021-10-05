@@ -6,3 +6,5 @@ type(x) #Prints data type of x
 print(__builtins__) #Prints all the functions of python
 
 dictionary = {"key": value}
+help(dict) #Dictionary 
+print(dict.values) #Prints values of a dictionary like a list.
