@@ -9,3 +9,6 @@ dictionary = {"key": value}
 help(dict) #Dictionary 
 print(dict.values()) #Prints values of a dictionary like a list.
 print(dict.keys()) #Prints keys of dict.
+
+
+tuple = {a,b,c} #like list but cannot be changed (like tuple.append())
