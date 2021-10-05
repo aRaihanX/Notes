@@ -17,3 +17,6 @@ word = "hello"
 print(word[2]) #Output > l
 list = [ "hello", 3, 2, 1]
 print(list[0][2]) #Output > l
+
+var = "Raihan"
+print(f"Hello {var}") #prints Hello Raihan
