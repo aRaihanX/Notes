@@ -1,4 +1,5 @@
 dir(list) #Prints all the attributes for list
 dir(str) #Prints all the attributes for str, upper is an attribute for str
 help(str.upper) #Prints information about what str.upper option does. 
+"Hello".upper() #HELLO
 type(x) #Prints data type of x
