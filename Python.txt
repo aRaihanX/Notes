@@ -12,3 +12,8 @@ print(dict.keys()) #Prints keys of dict.
 
 
 tuple = {a,b,c} #like list but cannot be changed (like tuple.append())
+
+word = "hello"
+print(word[2]) #Output > l
+list = [ "hello", 3, 2, 1]
+print(list[0][2]) #Output > l
