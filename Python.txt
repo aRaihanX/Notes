@@ -23,7 +23,7 @@ print(f"Hello {var}") #prints Hello Raihan
 
 
 #File
-myfile = open("file.txt") #Should already exist file.txt file
+myfile = open("file.txt") #Should already exist file.txt file or mode should be "w" like opent("file.txt","w")
 print(myfile.read()) #Prints the file content
 #one thing, before read() function execution, cursor will be in the first place.
 #After executin read(), cursor will go to the last of the file.
@@ -34,4 +34,7 @@ myfile.close()
 with open("file.txt") as myfile:
   content = myfile.read()
 print(content) 
+
+open("file.txt","w") # to write file 
+
   
