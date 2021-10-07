@@ -35,6 +35,7 @@ with open("file.txt") as myfile:
   content = myfile.read()
 print(content) 
 
-open("file.txt","w") # to write file 
+content=open("file.txt","w") # to write file
+content.write("Something")
 
   
