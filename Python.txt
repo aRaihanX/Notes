@@ -20,3 +20,11 @@ print(list[0][2]) #Output > l
 
 var = "Raihan"
 print(f"Hello {var}") #prints Hello Raihan
+
+
+#File
+myfile = open("file.txt") #Should already exist file.txt file
+print(myfile.read()) #Prints the file content
+#one thing, before read() function execution, cursor will be in the first place.
+#After executin read(), cursor will go to the last of the file.
+#Executing read() two times will print the file content once becase cursor at the last position. 
