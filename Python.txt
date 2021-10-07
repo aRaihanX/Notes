@@ -38,4 +38,7 @@ print(content)
 content=open("file.txt","w") # to write file
 content.write("Something")
 
+#w mode override content if file exist. x mode will not override. 
+#a mode will append file content if file exist. 
+
   
