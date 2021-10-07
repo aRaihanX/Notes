@@ -40,5 +40,5 @@ content.write("Something")
 
 #w mode override content if file exist. x mode will not override. 
 #a mode will append file content if file exist. 
+content.seek(0) #Cursor moves to 0 position . 
 
-  
