@@ -28,3 +28,10 @@ print(myfile.read()) #Prints the file content
 #one thing, before read() function execution, cursor will be in the first place.
 #After executin read(), cursor will go to the last of the file.
 #Executing read() two times will print the file content once becase cursor at the last position. 
+#One should close file after processing, as file takes some ram.
+myfile.close()
+
+with open("file.txt") as myfile:
+  content = myfile.read()
+print(content) 
+  
