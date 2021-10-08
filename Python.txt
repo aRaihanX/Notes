@@ -42,3 +42,7 @@ content.write("Something")
 #a mode will append file content if file exist. 
 content.seek(0) #Cursor moves to 0 position . 
 
+
+var="hello world"
+"hello" in var #Returns true
+"universe" in var #Returns False
