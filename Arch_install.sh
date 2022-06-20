@@ -19,8 +19,10 @@ grub-mkconfig -o /boot/grub/grub.cfg
 exit
 umount -R /mnt
 reboot
+nmtui #Setting Network
 useradd -m "username"
 usermod -G wheel "username"
 vim /etc/sudoers
 su "username"
-pacman -S xorg gdm3 xfce4 xfce4-goodies pulseaudio pavucontrol xdg-user-dir
+pacman -S xorg gdm xfce4 xfce4-goodies pulseaudio pavucontrol xdg-user-dir
+systemctl enable gdm
