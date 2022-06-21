@@ -1,0 +1,9 @@
+#Ibus not working on every app
+Soln:
+Add line to /etc/profile file;
+    export GTK_IM_MODULE=ibus
+    export XMODIFIERS=@im=ibus
+    export QT_IM_MODULE=ibus
+then command: ibus-daemon -drx
+
+
