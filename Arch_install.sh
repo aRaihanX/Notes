@@ -28,3 +28,5 @@ vim /etc/sudoers
 su "username"
 pacman -S xorg "gdm or ly-git via yay" xfce4 xfce4-goodies pulseaudio pavucontrol xdg-user-dir
 systemctl enable gdm
+#create .xprofile file to auto-start program
+#sxhkd to hot keys
