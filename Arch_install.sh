@@ -26,7 +26,7 @@ useradd -m "username"
 usermod -G wheel "username"
 vim /etc/sudoers
 su "username"
-pacman -S xorg "gdm or ly-git via yay" xfce4 xfce4-goodies pulseaudio pavucontrol xdg-user-dir
+pacman -S xorg "gdm or ly-git via yay" xfce4 xfce4-goodies pulseaudio pavucontrol xdg-user-dirs
 systemctl enable gdm
 #create .xprofile file to auto-start program
 #sxhkd to hot keys
