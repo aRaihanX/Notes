@@ -30,3 +30,5 @@ pacman -S xorg "gdm or ly-git via yay" xfce4 xfce4-goodies pulseaudio pavucontro
 systemctl enable gdm
 #create .xprofile file to auto-start program
 #sxhkd to hot keys
+#install nautilus for ftp
+
