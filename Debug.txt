@@ -7,3 +7,9 @@ Add line to /etc/profile file;
 then command: ibus-daemon -drx
 
 
+#Virtualbox problem
+pacman -S virtualbox
+    select virtualbox-host-dkms (not virtualbox-host-modules-arch)
+sudo modprobe vboxdrv
+
+
