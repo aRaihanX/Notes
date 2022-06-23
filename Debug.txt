@@ -13,3 +13,12 @@ pacman -S virtualbox
 sudo modprobe vboxdrv
 
 
+#FTP server
+pacman -S vsftp
+pacman -S inetutils
+vim /etc/hosts.allow
+    vsftp: All
+    vsftp: 10.0.0.0/255.255.255.0
+
+
+
