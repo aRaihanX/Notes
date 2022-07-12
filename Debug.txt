@@ -13,6 +13,10 @@ pacman -S virtualbox
 sudo modprobe vboxdrv
 
 
+#Touchpad not working
+    `xinput set-prop "SynPS/2 Synaptics TouchPad" "libinput Tapping Enabled" 1`
+
+
 #FTP server
 pacman -S vsftp
 pacman -S inetutils
