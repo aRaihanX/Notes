@@ -17,12 +17,8 @@ sudo modprobe vboxdrv
     `xinput set-prop "SynPS/2 Synaptics TouchPad" "libinput Tapping Enabled" 1`
 
 
-#FTP server
-pacman -S vsftp
-pacman -S inetutils
-vim /etc/hosts.allow
-    vsftp: All
-    vsftp: 10.0.0.0/255.255.255.0
-
+#Error while booting "error: file /boot/grub/grub.gmo not found"
+    add "LANG=C" to /etc/default/grub file
+    then 'grub-mkconfig -o /boot/grub/grub.cfg'
 
 
